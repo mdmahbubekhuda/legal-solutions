@@ -104,7 +104,7 @@
             </div>
 
             <!-- card-container -->
-            <div class="grid grid-cols-3 place-content-center place-items-center gap-[1px] bg-[#E7E7E7]">
+            <div class="grid grid-cols-3 place-content-stretch place-items-stretch gap-[1px] bg-[#E7E7E7]">
                 <!-- card-1 -->
                 <div class="card bg-base-100 p-8 w-fit rounded-none">
                     <figure><img src="./images/business.png" alt="" /></figure>
@@ -194,7 +194,7 @@
                                         <img src="./images/closeup-gavel-judgement-concept.jpg" />
                                     </div>
                                 </div>
-                                <h3 class="mb-5 text-5xl font-bold">Awlad Hossain</h3>
+                                <h3 class="mb-5 text-5xl font-bold">Md. Mahbub-e-Khuda</h3>
                                 <h4 class="mb-5 text-2xl font-bold">UIX Designer</h4>
                                 <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It
                                     has roots in a piece of classical Latin literature from 45 BC, making it over 2000
@@ -335,8 +335,7 @@
             <div class="flex gap-8 justify-center items-center">
 
                 <!-- contact-info -->
-                <div
-                    class="flex-1 grid grid-cols-2 place-content-center place-items-center gap-[1px] bg-[#E7E7E7]">
+                <div class="flex-1 grid grid-cols-2 place-content-stretch place-items-stretch gap-[1px] bg-[#E7E7E7]">
                     <!-- card-1 -->
                     <div class="card bg-base-100 p-8 w-full rounded-none bg-[#F3F3F3]">
                         <figure><img src="./images/location.png" alt="" /></figure>
@@ -385,12 +384,9 @@
 
                 <!-- customer-info -->
                 <div class="flex-1 flex flex-col space-y-8">
-                    <input type="text" placeholder="Your Name"
-                        class="input input-bordered w-full bg-[#F3F3F3]" />
-                    <input type="email" placeholder="Your Email"
-                        class="input input-bordered w-full bg-[#F3F3F3]" />
-                    <input type="text" placeholder="Subject"
-                        class="input input-bordered w-full bg-[#F3F3F3]" />
+                    <input type="text" placeholder="Your Name" class="input input-bordered w-full bg-[#F3F3F3]" />
+                    <input type="email" placeholder="Your Email" class="input input-bordered w-full bg-[#F3F3F3]" />
+                    <input type="text" placeholder="Subject" class="input input-bordered w-full bg-[#F3F3F3]" />
                     <textarea placeholder="Your Message"
                         class="textarea textarea-bordered textarea-lg w-full bg-[#F3F3F3]"></textarea>
                     <button class="btn btn-neutral bg-primary-color border-none w-full">Send Message</button>
@@ -398,6 +394,52 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer p-10 bg-[#111111] text-neutral-content justify-around">
+        <!-- footer-logo -->
+        <div class="max-w-[35ch]">
+            <img src="images/logo.png" alt="">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour.</p>
+        </div>
+        <!-- useful-links -->
+        <div>
+            <span class="footer-title">Useful Links</span>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blog</a>
+            <a class="link link-hover">Contact Us</a>
+        </div>
+        <!-- contact-now -->
+        <div>
+            <span class="footer-title">Contact Now</span>
+            <a class="link link-hover">
+                555 4th 5t NW, Washington
+                <br>
+                DC 20530, United States</a>
+            <a class="link link-hover">
+                +88 01750 000 000
+                <br>
+                +88 01750 000 000</a>
+            <a class="link link-hover">
+                info@gmail.com
+                <br>
+                info@gmail.com
+            </a>
+        </div>
+        <!-- subscription -->
+        <div>
+            <span class="footer-title">Subscribe</span>
+            <p class="max-w-[20ch]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <div class="flex">
+                <input type="email" placeholder="Email Address" class="input input-bordered" />
+                <button class="btn btn-neutral bg-primary-color border-none">
+                    <i class="fa-regular fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
